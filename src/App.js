@@ -10,7 +10,11 @@ import Navbar from './components/Navbar'
 function App() {
   return (
     <div>
-      <h2>app component</h2>
+      <BrowserRouter>
+        <Router>
+          <Route to="/" />
+        </Router>
+      </BrowserRouter>
     </div>
   )
 }
