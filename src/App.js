@@ -20,7 +20,7 @@ function App() {
             <About />
           </Route>
           <Route path="/cocktail:id">
-            <Home />
+            <SingleCocktail />
           </Route>
           <Route exact path="/">
             <Home />
