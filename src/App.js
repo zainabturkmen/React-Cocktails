@@ -10,11 +10,9 @@ import Navbar from './components/Navbar'
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Router>
-          <Route to="/" />
-        </Router>
-      </BrowserRouter>
+      <Router>
+        
+      </Router>
     </div>
   )
 }
