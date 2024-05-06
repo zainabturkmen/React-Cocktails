@@ -11,7 +11,10 @@ function App() {
   return (
     <div>
       <Router>
-        
+        <Navbar />
+        <Switch>
+          
+        </Switch>
       </Router>
     </div>
   )
