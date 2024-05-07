@@ -22,7 +22,9 @@ const SingleCocktail = () => {
             strCategory: category,
             strGlass:glass,
             strInstructions:instractions, 
-
+            strIngredienct1,
+            strIngredienct2,
+            strIngredienct3,
           } = data.drinks[0];
         } else {
           setCocktail(null);
