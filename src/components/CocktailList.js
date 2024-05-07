@@ -23,7 +23,7 @@ const CocktailList = () => {
       <h2 className="section-title">cocktails</h2>
       <div className="cocktails-center">
         {cocktails.map((item)=> {
-          return <Cocktail ></Cocktail>
+          return <Cocktail key={item.id} {...item}></Cocktail>
         })}
       </div>
     </section>
