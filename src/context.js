@@ -16,6 +16,9 @@ const AppProvider = ({ children }) => {
       const response = await fetch(`${url}${searchTerm}`)
       const data = await response.json();
       const {drinks} = data;
+      if (drinks) {
+        
+      }
     } catch (error) {
       console.log(error);
     }
