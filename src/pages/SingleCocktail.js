@@ -9,7 +9,7 @@ const SingleCocktail = () => {
   const [cocktail, setCocktail] = React.useState(null)
 
   React.useEffect(()=> {
-    
+    setLoading(true)
   })
   return (
     <div>
