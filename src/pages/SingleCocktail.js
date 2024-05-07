@@ -7,6 +7,10 @@ const SingleCocktail = () => {
   const {id} = useParams()
   const [loading, setLoading] = React.useState(false)
   const [cocktail, setCocktail] = React.useState(null)
+
+  React.useEffect(()=> {
+    
+  })
   return (
     <div>
       <h2>single cocktail page </h2>
