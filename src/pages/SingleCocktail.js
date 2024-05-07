@@ -10,7 +10,10 @@ const SingleCocktail = () => {
 
   React.useEffect(()=> {
     setLoading(true)
-  })
+    async function () {
+
+    }
+  }, [id])
   return (
     <div>
       <h2>single cocktail page </h2>
