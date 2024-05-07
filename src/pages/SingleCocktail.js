@@ -59,7 +59,7 @@ const SingleCocktail = () => {
     getCocktails();
   }, [id]);
   if (loading) {
-    
+    return <Loading />
   }
   return (
     <div>
