@@ -65,7 +65,7 @@ const SingleCocktail = () => {
     return <h2 className="section-title">no cocktail to display </h2>;
   }
 
-  const { name, image, category, info, glass, instructions, ingredients } =
+  const { name, image, category, info, glass, instractions, ingredients } =
     cocktail;
   return (
     <section className="section cocktail-section">
@@ -94,7 +94,7 @@ const SingleCocktail = () => {
           </p>
           <p>
             <span className="drink-data">Instractions:</span>
-            {instructions}
+            {instractions}
           </p>
         </div>
       </div>
