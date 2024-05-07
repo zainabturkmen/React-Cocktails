@@ -4,7 +4,7 @@ import Loading from './Loading'
 import { useGlobalContext } from '../context'
 
 const CocktailList = () => {
-  const {cocktails} = useGlobalContext()
+  const { cocktail, loading } = useGlobalContext();
   return (
     <div>
       <h2>cocktail list component</h2>
