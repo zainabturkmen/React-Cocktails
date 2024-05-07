@@ -10,7 +10,7 @@ const SingleCocktail = () => {
 
   React.useEffect(()=> {
     setLoading(true)
-    async function () {
+    async function getCocktails () {
 
     }
   }, [id])
