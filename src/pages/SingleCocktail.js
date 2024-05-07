@@ -64,6 +64,8 @@ const SingleCocktail = () => {
   if (!cocktail) {
     return <h2 className="section-title">no cocktail to display </h2>
   }
+
+  const {name, }
   return (
     <div>
       <h2>{id}</h2>
