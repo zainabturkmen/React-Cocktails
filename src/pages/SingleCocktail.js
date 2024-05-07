@@ -19,6 +19,7 @@ const SingleCocktail = () => {
         }else{
           setCocktail(null)
         }
+        setLoading(false)
       } catch (error) {
         setLoading(false)
       }
