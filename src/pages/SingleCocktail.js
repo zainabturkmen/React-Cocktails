@@ -46,7 +46,7 @@ const SingleCocktail = () => {
             instractions,
           };
 
-          setCocktail(newCocktail)
+          setCocktail(newCocktail);
         } else {
           setCocktail(null);
         }
@@ -59,22 +59,37 @@ const SingleCocktail = () => {
     getCocktails();
   }, [id]);
   if (loading) {
-    return <Loading />
+    return <Loading />;
   }
   if (!cocktail) {
-    return <h2 className="section-title">no cocktail to display </h2>
+    return <h2 className="section-title">no cocktail to display </h2>;
   }
 
-  const {name, image, category, info, glass, instructions, ingredients} = cocktail;
+  const { name, image, category, info, glass, instructions, ingredients } =
+    cocktail;
   return (
     <section className="section cocktail-section">
-      <Link to="/" className="btn btn-primary" >back home</Link>
+      <Link to="/" className="btn btn-primary">
+        back home
+      </Link>
       <h2 className="section-title">{name}</h2>
       <div className="drink">
-        <img src={image} alt={name}/>
-        <div className="drink-info" >
+        <img src={image} alt={name} />
+        <div className="drink-info">
           <p>
             <span className="drink-data">name:{name} </span>
+          </p>
+          <p>
+            <span className="drink-data">category:{category} </span>
+          </p>
+          <p>
+            <span className="drink-data">info:{info} </span>
+          </p>
+          <p>
+            <span className="drink-data">glass:{glass} </span>
+          </p>
+          <p>
+            <span className="drink-data">instractions:{instructions} </span>
           </p>
         </div>
       </div>
