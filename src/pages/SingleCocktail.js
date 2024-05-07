@@ -38,8 +38,13 @@ const SingleCocktail = () => {
           ];
 
           const newCocktail = {
-            name, image, info, category, glass, instructions 
-          }
+            name,
+            image,
+            info,
+            category,
+            glass,
+            instractions,
+          };
 
           setCocktail(newCocktail)
         } else {
