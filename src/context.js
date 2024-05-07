@@ -16,9 +16,9 @@ const AppProvider = ({ children }) => {
       const data = await response.json();
       const { drinks } = data;
       if (drinks) {
-        setCocktails([])
+        
       }else{
-
+        setCocktails([])
       }
     } catch (error) {
       console.log(error);
