@@ -17,6 +17,12 @@ const CocktailList = () => {
       </h2>
     );
   }
+
+  return(
+    <div>
+      <h2>cocktail list</h2>
+    </div>
+  )
 };
 
 export default CocktailList;
