@@ -10,7 +10,12 @@ const Navbar = () => {
           <img src={logo} alt="cocktail logo" className='logo' />
         </Link>
         <ul className='nav-links' >
-
+          <li>
+            <Link to="/" >Home</Link>
+          </li>
+          <li>
+            <Link to="/about" >about</Link>
+          </li>
         </ul>
       </div>
     </nav>
