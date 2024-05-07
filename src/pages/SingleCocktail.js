@@ -44,6 +44,7 @@ const SingleCocktail = () => {
             category,
             glass,
             instractions,
+            ingredients,
           };
 
           setCocktail(newCocktail);
