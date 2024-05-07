@@ -3,7 +3,11 @@ import { Link } from 'react-router-dom'
 
 const Cocktail = ({image, name, id, info, glass}) => {
   return (
-   <article className='cocktails'></article>
+   <article className='cocktails'>
+    <div className='img-container'>
+      <img />
+    </div>
+   </article>
   )
 }
 
