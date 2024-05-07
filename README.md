@@ -1,14 +1,14 @@
-#### Cocktails
+# Cocktails
 
-###### In this project, I used ReactJS, CSS, and also Responsive Design which works for different screen sizes.
+### In this project, I used ReactJS, CSS, and also Responsive Design which works for different screen sizes.
 
 ### Run the app locally
-###### pnpm
+#### pnpm
 ```
 pnpm install & pnpm start
 ```
 
-###### npm
+#### npm
 ```
 npm install & npm start
 ```
