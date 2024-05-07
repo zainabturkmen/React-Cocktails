@@ -23,3 +23,9 @@ npm install & npm start
 ```sh
 npm install react-router-dom@6
 ```
+
+## ScreenShots
+
+![alt text](image.png)
+
+![alt text](image-1.png)
