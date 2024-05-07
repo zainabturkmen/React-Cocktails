@@ -9,6 +9,9 @@ const Navbar = () => {
         <Link to="/">
           <img src={logo} alt="cocktail logo" className='logo' />
         </Link>
+        <ul className='nav-links' >
+
+        </ul>
       </div>
     </nav>
   );
