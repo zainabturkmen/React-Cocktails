@@ -5,7 +5,7 @@ import { useGlobalContext } from "../context";
 
 const CocktailList = () => {
   const { cocktails, loading } = useGlobalContext();
-console.log(cocktails);
+  console.log(cocktails);
   if (loading) {
     return <Loading />;
   }
@@ -18,11 +18,14 @@ console.log(cocktails);
     );
   }
 
-  return(
-    <div>
-      <h2>cocktail list</h2>
-    </div>
-  )
+  return (
+    <section className="section">
+      <h2 className="section-title">cocktails</h2>
+      <div className="cocktails-center">
+        
+      </div>
+    </section>
+  );
 };
 
 export default CocktailList;
