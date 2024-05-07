@@ -93,7 +93,7 @@ const SingleCocktail = () => {
             {glass}
           </p>
           <p>
-            <span className="drink-data">instractions:</span>
+            <span className="drink-data">Instractions:</span>
             {instructions}
           </p>
         </div>
