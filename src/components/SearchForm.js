@@ -6,9 +6,10 @@ const SearchForm = () => {
   const searchValue = React.useRef("")
   return (
   <section className='section search'>
-    <form className='search-from'>
+    <form className='search-form'>
       <div className='form-control'>
-        <label htmlFor='name'>search</label>
+        <label htmlFor='name'>search your favorite cocktails</label>
+        <input type='text' id='name' ref={searchValue} onChange={searchCocktails}/>
       </div>
     </form>
   </section>
