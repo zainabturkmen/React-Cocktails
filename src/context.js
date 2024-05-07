@@ -23,8 +23,8 @@ const AppProvider = ({ children }) => {
   }
 
   useEffect(()=> {
-    
-  })
+
+  }, [])
 
   return (
     <AppContext.Provider
