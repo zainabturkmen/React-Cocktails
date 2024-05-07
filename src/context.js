@@ -16,14 +16,29 @@ const AppProvider = ({ children }) => {
       const data = await response.json();
       const { drinks } = data;
       if (drinks) {
-
-      }else{
-        setCocktails([])
+        const newDrinks = drinks.map((item) => {
+          const {
+            idDrink,
+            strDrink,
+            strDrinkAlternate,
+            strAlcoholic,
+            strGlass,
+          } = item;
+          return {
+            id: idDrink,
+            name: strDrink,
+            image: strDrinkAlternate,
+            info: strAlcoholic,
+            glass: strGlass,
+          };
+        });
+      } else {
+        setCocktails([]);
       }
-      setLoading(false)
+      setLoading(false);
     } catch (error) {
       console.log(error);
-      setLoading(false)
+      setLoading(false);
     }
   };
 
