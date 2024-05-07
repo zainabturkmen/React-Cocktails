@@ -1,18 +1,20 @@
-#### React Router Fix
+#### Cocktails
 
+###### In this project, I used ReactJS, CSS, and also Responsive Design which works for different screen sizes.
 
-
+### Run the app locally
+###### pnpm
 ```
 pnpm install & pnpm start
 ```
-
+###### npm
 ```
 npm install & npm start
 ```
-#### CRA Fix
+
+
 
 ```
-
 "build": "CI= react-scripts build",
 
 ```
