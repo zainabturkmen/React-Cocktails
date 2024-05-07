@@ -74,7 +74,7 @@ const SingleCocktail = () => {
         <img src={image} alt={name}/>
         <div className="drink-info" >
           <p>
-            <span className="drink-data">name: </span>
+            <span className="drink-data">name:{name} </span>
           </p>
         </div>
       </div>
