@@ -16,12 +16,14 @@ const AppProvider = ({ children }) => {
       const data = await response.json();
       const { drinks } = data;
       if (drinks) {
-        
+
       }else{
         setCocktails([])
       }
+      setLoading(false)
     } catch (error) {
       console.log(error);
+      setLoading(false)
     }
   };
 
