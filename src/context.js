@@ -18,13 +18,12 @@ const AppProvider = ({ children }) => {
       console.log(data);
     } catch (error) {
       console.log(error);
-      
     }
   }
 
   useEffect(()=> {
-    
-  }, [])
+    fetchDrinks()
+  }, [searchTerm])
 
   return (
     <AppContext.Provider
