@@ -5,6 +5,12 @@ import { useGlobalContext } from '../context'
 
 const CocktailList = () => {
   const { cocktail, loading } = useGlobalContext();
+
+  if (loading) {
+    return <Loading />
+  }
+
+
   return (
     <div>
       <h2>cocktail list component</h2>
