@@ -36,6 +36,10 @@ const SingleCocktail = () => {
             strIngredienct4,
             strIngredienct5,
           ];
+
+          const newCocktail = {
+            name, image, info, category, glass, instructions
+          }
         } else {
           setCocktail(null);
         }
