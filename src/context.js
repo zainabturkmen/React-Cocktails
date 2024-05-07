@@ -14,7 +14,7 @@ const AppProvider = ({ children }) => {
     setLoading(true)
     try {
       const response = await fetch(`${url}${searchTerm}`)
-      
+      const data = await response.json();
     } catch (error) {
       console.log(error);
       
