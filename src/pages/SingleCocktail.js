@@ -67,7 +67,7 @@ const SingleCocktail = () => {
 
   const {name, image, category, info, glass, instructions, ingredients} = cocktail;
   return (
-    <section>
+    <section className="section">
       <h2 className="section-title">{name}</h2>
     </section>
   );
